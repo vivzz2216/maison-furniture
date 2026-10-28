@@ -2152,4 +2152,6 @@ body {
 .swatch-dot:focus-visible,.card-swatch-btn:focus-visible{outline:3px solid #191919;outline-offset:4px}
 
 /* Keep the full first PLIN finish visible in the catalog frame. */
-.catalog-img-box img[src$='finish-table-chrome.webp'] { object-fit: contain; background: #fff; }
+.catalog-img-box img[src$='finish-table-chrome.webp'],
+.catalog-img-box img[src$='finish-table-brass.webp'],
+.catalog-img-box img[src$='finish-table-gunmetal.webp'] { object-fit: contain; background: #fff; }
